@@ -20,11 +20,11 @@ class navbarstatic extends Component {
                 <a href='#' className='navbarstatic-a'>Experiencia</a>
                 <a href='#' className='navbarstatic-a'>Proyectos</a>
                 <div className='navbarstatic-social-network'>
-                    <li><a href=''><i className="fa-brands fa-facebook"></i></a></li>
-                    <li><a href=''><i className="fa-brands fa-whatsapp" ></i></a></li>
-                    <li><a href=''><i className="fa-brands fa-instagram" ></i></a></li>
-                    <li><a href=''><i className="fa-brands fa-linkedin" ></i></a></li>
-                    <li><a href=''><i className="fa-brands fa-github" ></i></a></li>
+                    <a href=''><i className="fa-brands fa-facebook fa-2x"></i></a>
+                    <a href=''><i className="fa-brands fa-whatsapp fa-2x" ></i></a>
+                    <a href=''><i className="fa-brands fa-instagram fa-2x" ></i></a>
+                    <a href=''><i className="fa-brands fa-linkedin fa-2x" ></i></a>
+                    <a href=''><i className="fa-brands fa-github fa-2x" ></i></a>
                 </div>
 
             </div>
