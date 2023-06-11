@@ -7,13 +7,25 @@
     display: flex;
     align-self: flex-start;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
     flex-wrap: nowrap;
-    margin-left: 1rem;
-
+    height: 100%;
 
 }
+
+.navbarstatic-main-background {
+    width: 100%;
+    height: 100%;
+    background-image: url("/public/Resources/wave.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navbarstatic-main a {
+    padding: 1rem;
+}
+
 
 .navbarstatic-main * {
     text-align: center;
@@ -38,15 +50,18 @@
     color: black;
 }
 
+.navbarstatic-social-network a {
+    padding: 5px;
+    margin: 5px;
+}
+
 .navbarstatic-social-network li {
     all: unset;
 }
 
-.navbarstatic-main a {
-    padding: 1rem;
-}
 
 #navbarstatic-title-name {
+    margin-top: 3rem;
     font-family: 'Kadwa';
     font-style: normal;
     font-weight: 400;
@@ -87,4 +102,10 @@
 
 .navbarstatic-main li {
     list-style: none;
+}
+
+@media (max-width: 400px) {
+    #navbarstatic-title-name {
+        margin-top: 1rem;
+    }
 }

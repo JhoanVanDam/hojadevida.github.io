@@ -26,6 +26,9 @@ class navbarstatic extends Component {
                     <a href=''><i className="fa-brands fa-linkedin fa-2x" ></i></a>
                     <a href=''><i className="fa-brands fa-github fa-2x" ></i></a>
                 </div>
+                <div className='navbarstatic-main-background'>
+
+                </div>
 
             </div>
         );
