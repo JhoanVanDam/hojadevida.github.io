@@ -19,7 +19,7 @@
     height: 100%;
     background-image: url("/public/Resources/wave.svg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
 }
 
 .navbarstatic-main a {
@@ -106,11 +106,15 @@
 }
 
 @media (max-width: 400px) {
-    #navbarstatic-title-name {
-        margin-top: 1rem;
+    .navbarstatic-main label {
+        margin-top: 2rem;
     }
 
     #navbarstatic-degree {
         width: 80%;
+    }
+
+    .navbarstatic-social-network {
+        margin-top: 4rem;
     }
 }

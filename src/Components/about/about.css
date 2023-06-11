@@ -1,14 +1,28 @@
 .about-main {
-    width: 50%;
-    align-self: flex-end;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    flex-wrap: nowrap;
 }
 
-.about-img img {
-    height: auto;
+.about-main img {
+    width: clamp(min(10vw, 20rem), 150px, max(90vw, 50rem));
     max-width: 50%;
     border-radius: 50%;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    border-right: 6px solid rgba(33, 14, 255, 0.97);
+    border-radius: 100px;
+}
+
+.about-description {
+    width: 70%;
+    font-family: 'Kadwa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: normal;
+    color: #000000;
 }

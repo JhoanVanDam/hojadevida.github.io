@@ -16,7 +16,7 @@ class navbarstatic extends Component {
                 <label id='navbarstatic-role'>
                     Desarrollador Backend
                 </label>
-                <a href='#' className='navbarstatic-a'>Sobre mí</a>
+                <a href='#go-about-main' className='navbarstatic-a'>Sobre mí</a>
                 <a href='#' className='navbarstatic-a'>Experiencia</a>
                 <a href='#' className='navbarstatic-a'>Proyectos</a>
                 <div className='navbarstatic-social-network'>

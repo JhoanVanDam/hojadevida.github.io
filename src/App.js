@@ -1,12 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
-import Navbarstatic from './Components/navbarstatic/navbarstatic';
-import About from './Components/about/about';
+import Main from './Components/main/main';
 function App() {
   return (
     <div className="App">
-      <Navbarstatic></Navbarstatic>
-      <About></About>
+      <Main />
     </div>
   );
 }
