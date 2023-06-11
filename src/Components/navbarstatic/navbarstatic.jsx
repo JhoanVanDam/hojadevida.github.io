@@ -20,11 +20,11 @@ class navbarstatic extends Component {
                 <a href='#' className='navbarstatic-a'>Experiencia</a>
                 <a href='#' className='navbarstatic-a'>Proyectos</a>
                 <div className='navbarstatic-social-network'>
-                    <a href=''><i className="fa-brands fa-facebook fa-2x"></i></a>
-                    <a href=''><i className="fa-brands fa-whatsapp fa-2x" ></i></a>
-                    <a href=''><i className="fa-brands fa-instagram fa-2x" ></i></a>
-                    <a href=''><i className="fa-brands fa-linkedin fa-2x" ></i></a>
-                    <a href=''><i className="fa-brands fa-github fa-2x" ></i></a>
+                    <a href="https://www.facebook.com/jhoanvandam" rel="noreferrer" target="_blank"><i className="fa-brands fa-facebook fa-2x"></i></a>
+                    <a href="https://wa.me/+573228407701" rel="noreferrer" target="_blank"><i className="fa-brands fa-whatsapp fa-2x" ></i></a>
+                    <a href="https://www.instagram.com/jhoanvandam" rel="noreferrer" target="_blank"><i className="fa-brands fa-instagram fa-2x" ></i></a>
+                    <a href="https://www.linkedin.com/in/jhoanvandam" rel="noreferrer" target="_blank"><i className="fa-brands fa-linkedin fa-2x" ></i></a>
+                    <a href="https://www.github.com/jhoanvandam" rel="noreferrer" target="_blank"><i className="fa-brands fa-github fa-2x" ></i></a>
                 </div>
                 <div className='navbarstatic-main-background'>
 
