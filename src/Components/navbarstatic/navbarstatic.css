@@ -71,6 +71,7 @@
 }
 
 #navbarstatic-degree {
+    width: 60%;
     font-family: 'Kaisei Opti';
     font-style: normal;
     font-weight: 400;
@@ -107,5 +108,9 @@
 @media (max-width: 400px) {
     #navbarstatic-title-name {
         margin-top: 1rem;
+    }
+
+    #navbarstatic-degree {
+        width: 80%;
     }
 }
