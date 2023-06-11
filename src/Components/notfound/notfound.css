@@ -1,0 +1,35 @@
+ .not-found-main {
+     width: 50%;
+     align-self: flex-end;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     background-color: rgb(0, 0, 0);
+ }
+
+ .not-found-main label {
+     font-family: 'Kadwa';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 5vw;
+     line-height: 72px;
+     color: #ffffff;
+     margin-top: 2rem;
+ }
+
+ .not-found-main img {
+     margin-top: 1rem;
+     margin-bottom: 1rem;
+     width: 55%;
+     max-width: 100%;
+     height: auto;
+ }
+
+ @media (max-width: 500px) {
+     .not-found-main img {
+         margin-top: 4rem;
+         margin-bottom: 4rem;
+         width: 100%;
+     }
+ }

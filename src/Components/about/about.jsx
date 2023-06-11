@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import style from "./about.css";
-import jhoan from "./jhoan2.jpg";
+import jhoan from "./jhoan.webp";
 class about extends Component {
     render() {
         return (
