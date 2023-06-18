@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Jura&family=Kadwa&family=Kaisei+Opti&family=Kameron&family=Karla&family=Lora:ital@0;1&family=Open+Sans&family=Roboto+Slab&family=Sen&display=swap');
+
 .skill-main {
     display: flex;
     align-items: center;
@@ -20,6 +21,19 @@
 
 }
 
+.skill-bar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.skill-bar label {
+    all: unset;
+    font-size: 2vw;
+}
+
 .skill-item {
     color: white;
     background-color: rgb(68, 68, 68);
@@ -31,15 +45,24 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border-radius: 2rem;
+    border-radius: 1rem;
     backdrop-filter: blur(10px);
 }
-.skill-item{
-    font-size: 1.5vw;
+
+.skill-item {
+    font-size: 2.5vw;
     font-family: 'Lora';
 }
-.skill-item i{
+
+.skill-item i {
     font-size: 2em;
+    transition: all 0.6s ease;
+    cursor: pointer;
+}
+
+.skill-item i:hover {
+    transform: scale(140%);
+
 }
 
 .skill-item label {
@@ -49,15 +72,14 @@
 }
 
 .skill-item-level {
-    height: 1rem;
+    height: 2vw;
     border-radius: 1rem;
     background-color: rgb(55, 146, 206);
-    margin-bottom: 0.5rem;
     margin-top: 0.5rem;
 }
 
 @media (max-width: 500px) {
-    .skill-item i{
-        font-size: 1em;
+    .skill-item i {
+        font-size: 9vw;
     }
 }
