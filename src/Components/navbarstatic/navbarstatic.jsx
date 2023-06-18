@@ -18,7 +18,7 @@ class navbarstatic extends Component {
                 </label>
                 <a href='#sobremi' className='navbarstatic-a'>Sobre mí</a>
                 <a href='#' className='navbarstatic-a'>Experiencia</a>
-                <a href='#' className='navbarstatic-a'>Habilidades</a>
+                <a href='#habilidades' className='navbarstatic-a'>Habilidades</a>
                 <a href='#' className='navbarstatic-a'>Proyectos</a>
                 <div className='navbarstatic-social-network'>
                     <a href="https://www.facebook.com/jhoanvandam" rel="noreferrer" target="_blank"><i className="fa-brands fa-facebook fa-2x"></i></a>

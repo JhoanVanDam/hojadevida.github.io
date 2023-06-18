@@ -20,6 +20,7 @@ class about extends Component {
                     </p>
                 </div>
             </div>
+            
         );
     }
 }
