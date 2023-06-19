@@ -3,6 +3,7 @@ import Main from './Components/main/main';
 import NotFound from './Components/notfound/notfound';
 import { Routes, Route } from "react-router-dom";
 import Navbarstatic from './Components/navbarstatic/navbarstatic';
+import Portada from './Components/footer/footer';
 
 function App() {
   return (

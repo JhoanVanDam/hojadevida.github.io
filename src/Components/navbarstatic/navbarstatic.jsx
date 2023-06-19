@@ -15,7 +15,7 @@ class navbarstatic extends Component {
                     Tecnólogo en Redes y Sistemas Teleinformáticos
                 </label>
                 <label id='navbarstatic-role'>
-                    Desarrollador Backend
+                    Desarrollador
                 </label>
                 <Link to="sobremi" smooth={true} duration={500} offset={-50} className='navbarstatic-a'>
                     Sobre mí

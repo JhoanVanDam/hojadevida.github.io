@@ -8,7 +8,6 @@ class about extends Component {
                 <img src={jhoan} alt="logo" />
                 <div className="about-description">
                     <h5>Sobre mí</h5>
-                    
                     <p>
                         Estudiante de Redes Y
                         Sistemas
@@ -20,7 +19,7 @@ class about extends Component {
                     </p>
                 </div>
             </div>
-            
+
         );
     }
 }

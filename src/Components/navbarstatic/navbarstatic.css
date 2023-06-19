@@ -11,7 +11,6 @@
     flex-direction: column;
     flex-wrap: nowrap;
     height: 100%;
-    background-image: url("/public/Resources/wave.svg");
     background-repeat: no-repeat;
     background-position: bottom;
 
@@ -28,7 +27,6 @@
 
 .navbarstatic-main label {
     margin-top: 1rem;
-    margin-right: 1rem;
 
 }
 
@@ -40,6 +38,7 @@
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     padding: 2%;
+    margin-top: 2rem;
 }
 
 .navbarstatic-social-network i {
@@ -57,12 +56,12 @@
 
 
 #navbarstatic-title-name {
-    margin-top: 3rem;
+    margin-top: 1rem;
     font-family: 'Kadwa';
     font-style: normal;
     font-weight: 400;
-    font-size: clamp(14px, 4vw, 36px);
-    line-height: clamp(20px, 3vw, 40px);
+    font-size: 3vw;
+    line-height: normal;
     color: #000000;
 }
 
@@ -71,7 +70,7 @@
     font-family: 'Kaisei Opti';
     font-style: normal;
     font-weight: 400;
-    font-size: clamp(14px, 2vw, 30px);
+    font-size: 1.5vw;
     color: #868686;
 }
 
@@ -79,17 +78,18 @@
     font-family: 'Kaisei Opti';
     font-style: normal;
     font-weight: 400;
-    font-size: clamp(14px, 2vw, 36px);
+    font-size: 1.5vw;
     line-height: 29px;
     color: #7E7E7E;
+    margin-bottom: 2rem;
 }
 
 .navbarstatic-a {
     font-family: 'Jura';
     font-style: normal;
     font-weight: 600;
-    font-size: clamp(14px, 2vw, 20px);
-    line-height: 24px;
+    font-size: 1.5vw;
+    line-height: normal;
     color: #000000;
 }
 
@@ -100,6 +100,8 @@
 .navbarstatic-main li {
     list-style: none;
 }
+
+@media (max-width: 400px) {}
 
 @media (max-width: 400px) {
     .navbarstatic-main label {
@@ -116,7 +118,27 @@
 }
 
 @media (max-width: 560px) {
-    .navbarstatic-social-network{
+    .navbarstatic-social-network {
         width: 80%;
+    }
+
+
+    #navbarstatic-title-name {
+        margin-top: 3rem;
+        font-size: 5vw;
+
+    }
+
+    #navbarstatic-degree {
+        width: 60%;
+        font-size: 3vw;
+    }
+
+    #navbarstatic-role {
+        font-size: 3vw;
+    }
+
+    .navbarstatic-a {
+        font-size: 3vw;
     }
 }
