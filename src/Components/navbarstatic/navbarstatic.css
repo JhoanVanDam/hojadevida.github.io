@@ -11,15 +11,10 @@
     flex-direction: column;
     flex-wrap: nowrap;
     height: 100%;
-
-}
-
-.navbarstatic-main-background {
-    width: 100%;
-    height: 100%;
     background-image: url("/public/Resources/wave.svg");
     background-repeat: no-repeat;
     background-position: bottom;
+
 }
 
 .navbarstatic-main a {
@@ -38,6 +33,7 @@
 }
 
 .navbarstatic-social-network {
+    width: fit-content;
     flex-wrap: nowrap;
     background: linear-gradient(0deg, rgba(20, 0, 255, 0.17), rgba(20, 0, 255, 0.17)), rgb(172, 165, 248);
     background-blend-mode: normal, hard-light;
@@ -116,5 +112,11 @@
 
     .navbarstatic-social-network {
         margin-top: 4rem;
+    }
+}
+
+@media (max-width: 560px) {
+    .navbarstatic-social-network{
+        width: 80%;
     }
 }

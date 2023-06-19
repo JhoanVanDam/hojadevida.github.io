@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import styles from './navbarstatic.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { Link, animateScroll as scroll } from 'react-scroll';
 
 class navbarstatic extends Component {
     render() {
@@ -16,10 +17,19 @@ class navbarstatic extends Component {
                 <label id='navbarstatic-role'>
                     Desarrollador Backend
                 </label>
-                <a href='#sobremi' className='navbarstatic-a'>Sobre mí</a>
-                <a href='#' className='navbarstatic-a'>Experiencia</a>
-                <a href='#habilidades' className='navbarstatic-a'>Habilidades</a>
-                <a href='#' className='navbarstatic-a'>Proyectos</a>
+                <Link to="sobremi" smooth={true} duration={500} offset={-50} className='navbarstatic-a'>
+                    Sobre mí
+                </Link>
+                <Link to="sobremi" smooth={true} duration={500} offset={-50} className='navbarstatic-a'>
+                    Experiencia
+                </Link>
+                <Link to="habilidades" smooth={true} duration={500} offset={-50} className='navbarstatic-a'>
+                    Habilidades
+                </Link>
+                <Link to="sobremi" smooth={true} duration={500} offset={-50} className='navbarstatic-a'>
+                    Proyectos
+                </Link>
+
                 <div className='navbarstatic-social-network'>
                     <a href="https://www.facebook.com/jhoanvandam" rel="noreferrer" target="_blank"><i className="fa-brands fa-facebook fa-2x"></i></a>
                     <a href="https://wa.me/+573228407701" rel="noreferrer" target="_blank"><i className="fa-brands fa-whatsapp fa-2x" ></i></a>
@@ -27,10 +37,6 @@ class navbarstatic extends Component {
                     <a href="https://www.linkedin.com/in/jhoanvandam" rel="noreferrer" target="_blank"><i className="fa-brands fa-linkedin fa-2x" ></i></a>
                     <a href="https://www.github.com/jhoanvandam" rel="noreferrer" target="_blank"><i className="fa-brands fa-github fa-2x" ></i></a>
                 </div>
-                <div className='navbarstatic-main-background'>
-
-                </div>
-
             </div>
         );
 

@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Jura&family=Kadwa&family=Kaisei+Opti&family=Kameron&family=Karla&family=Lora:ital@0;1&family=Open+Sans&family=Roboto+Slab&family=Sen&display=swap');
 
 .skill-main {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: nowrap;
+    justify-items: center;
     background-color: rgb(41, 41, 41);
     width: 100%;
-    margin-bottom: 4rem;
     padding-bottom: 4rem;
 }
+
 
 .skill-main h5 {
     font-family: 'Roboto Slab';
@@ -29,10 +29,6 @@
     flex-direction: column;
 }
 
-.skill-bar label {
-    all: unset;
-    font-size: 2vw;
-}
 
 .skill-item {
     color: white;
@@ -66,16 +62,34 @@
 }
 
 .skill-item label {
+    font-size: 2vw;
     text-align: center;
     margin-bottom: 0.5rem;
     margin-top: 0.5rem;
 }
 
 .skill-item-level {
-    height: 2vw;
+    height: 1.5vw;
     border-radius: 1rem;
     background-color: rgb(55, 146, 206);
+    margin-top: 1rem;
+}
+
+.skill-bar label {
+    all: unset;
     margin-top: 0.5rem;
+    font-size: 1vw;
+}
+
+@media (max-width: 768px) {
+    .skill-item label {
+        font-size: 3vw;
+    }
+
+
+    .skill-main {
+        grid-template-columns: 1fr;
+    }
 }
 
 @media (max-width: 500px) {

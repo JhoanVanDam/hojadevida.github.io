@@ -15,7 +15,6 @@ class skills extends Component {
 
         return (
             <div className="skill-main">
-                <h5>Mis habilidades</h5>
                 <div className="skill-item" id="habilidades">
                     <label>HTML</label>
                     <i className="fa-brands fa-html5" style={{ color: 'rgb(246,74,29)' }}></i>
@@ -62,7 +61,7 @@ class skills extends Component {
                     </div>
                 </div>
                 <div className="skill-item">
-                    <label>SPRING</label>
+                    <label>SPRINGBOOT</label>
                     <i className="fa-solid fa-power-off" style={{ color: 'green' }}></i>
                     <div className="skill-bar">
                         <div className="skill-item-level" style={{ width: languageBar.SPRING }}>
