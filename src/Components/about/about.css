@@ -33,12 +33,20 @@
         box-shadow: 2px 4px 10px 8px rgba(116, 116, 116, 0.8);
     }
 
+    25% {
+        box-shadow: 2px 5px 10px 8px rgba(116, 116, 116, 1);
+    }
+
     50% {
-        box-shadow: 1px 4px 5px 8px rgba(116, 116, 116, 0.4);
+        box-shadow: 2px 4px 15px 8px rgba(116, 116, 116, 0.6);
+    }
+
+    75% {
+        box-shadow: 2px 4px 10px 8px rgba(116, 116, 116, 0.5);
     }
 
     100% {
-        box-shadow: 1px 4px 12px 8px rgba(116, 116, 116, 0.6);
+        box-shadow: 2px 5px 14px 8px rgba(116, 116, 116, 0.8);
     }
 }
 
@@ -46,9 +54,10 @@
 
 .about-description {
     width: 70%;
-    border: 5px solid rgb(0, 143, 255);
+    border-top: 5px solid rgb(0, 143, 255);
+    border-bottom: 5px solid rgb(0, 143, 255);
     padding: 7%;
-    border-radius: 2rem;
+    border-radius: 1rem;
     background-color: white;
     display: flex;
     align-items: center;
