@@ -3,18 +3,16 @@ import './experience.css';
 class experience extends Component {
 
     render() {
-        const Colors = [
-            'rgb(100, 0, 95)',
-            'rgb(32, 97, 83)',
-            'rgb(24, 73, 14)',
-            'rgb(35, 19, 109)',
-            'rgb(63, 68, 14)'
-        ];
 
 
         const getColor = () => {
-            var posColors = Math.floor(Math.random() * (Colors.length));
-            return Colors[posColors];
+            var r = Math.floor(Math.random() * 128);  
+            var g = Math.floor(Math.random() * 128); 
+            var b = Math.floor(Math.random() * 128); 
+
+            var color = 'rgb(' + r + ', ' + g + ', ' + b + ')';  
+
+            return color;
 
 
 
