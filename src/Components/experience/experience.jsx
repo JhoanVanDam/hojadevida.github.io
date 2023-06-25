@@ -6,11 +6,11 @@ class experience extends Component {
 
 
         const getColor = () => {
-            var r = Math.floor(Math.random() * 128);  
-            var g = Math.floor(Math.random() * 128); 
-            var b = Math.floor(Math.random() * 128); 
+            var r = Math.floor(Math.random() * 128);
+            var g = Math.floor(Math.random() * 128);
+            var b = Math.floor(Math.random() * 128);
 
-            var color = 'rgb(' + r + ', ' + g + ', ' + b + ')';  
+            var color = 'rgb(' + r + ', ' + g + ', ' + b + ')';
 
             return color;
 
@@ -33,17 +33,16 @@ class experience extends Component {
             );
         };
 
-        const languages = ['JavaScript', 'HTML', 'CSS'];
+        const languages1 = ['JavaScript', 'HTML', 'CSS', 'JAVA', 'SQL'];
+        const languages2 = ['JavaScript', 'HTML', 'CSS','PHH'];
+   
 
 
 
         return (
             <div className='experience-main' id='experiencia'>
-                {experienceItem('2022-2023', 'Desarrollador de software', 'Academusoft', 'Trabajé en el mantenimiento y desarrollo de las IES contratadas en el CIADTI', languages, getColor())}
-                {experienceItem('2022-2023', 'Software Developer', 'Project XYZ', 'Worked on frontend development', languages, getColor())}
-                {experienceItem('2022-2023', 'Software Developer', 'Project XYZ', 'Worked on frontend development', languages, getColor())}
-                {experienceItem('2022-2023', 'Software Developer', 'Project XYZ', 'Worked on frontend development', languages, getColor())}
-                {experienceItem('2022-2023', 'Software Developer', 'Project XYZ', 'Worked on frontend development', languages, getColor())}
+                {experienceItem('2022-2023', 'Desarrollador de software', 'Academusoft', 'Trabajé en el mantenimiento y desarrollo de las IES contratadas en el CIADTI', languages1, getColor())}
+                {experienceItem('2022-2023', 'Desarrollador de software', 'FreeLance', 'Desarrollo e integración de la página de un videojuego', languages2, getColor())}
             </div>
         );
     }

@@ -56,6 +56,17 @@
 .experience-item-languages span {
     margin-right: 1vw;
     font-style: oblique;
+    background-color: white;
+    color: black;
+    transition: all 0.6s ease;
+    border-radius: 1rem;
+    padding: 3px;
+    margin: 2px;
+}
+
+.experience-item-languages span:hover {
+    color: white;
+    background-color: rgb(66, 66, 226);
 }
 
 @media (max-width: 700px) {
