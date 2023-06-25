@@ -34,11 +34,13 @@
 .experience-item-date {
     text-align: right;
     font-family: 'Jura';
+    font-size: 1.5vw;
 }
 
 .experience-item-ocupation {
     text-align: right;
     font-family: 'Kameron';
+    font-size: 1vw;
 }
 
 .experience-item-title {
@@ -51,6 +53,7 @@
     text-align: left;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    font-size: 1.3vw;
 }
 
 .experience-item-languages span {
@@ -60,8 +63,9 @@
     color: black;
     transition: all 0.6s ease;
     border-radius: 1rem;
-    padding: 3px;
+    padding: 4px;
     margin: 2px;
+    overflow: hidden;
 }
 
 .experience-item-languages span:hover {
@@ -85,5 +89,17 @@
         padding: 10vw;
         overflow: hidden;
 
+    }
+
+    .experience-item-description {
+        font-size: 3vw;
+    }
+
+    .experience-item-date {
+        font-size: 3vw;
+    }
+
+    .experience-item-ocupation {
+        font-size: 2vw;
     }
 }

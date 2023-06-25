@@ -2,8 +2,14 @@ import React, { Component } from 'react';
 import './experience.css';
 class experience extends Component {
 
+
+
     render() {
 
+        const buscar = (parametro) => {
+            const busquedaURL = "https://www.google.com/search?q=" + encodeURIComponent(parametro);
+            window.open(busquedaURL);
+        }
 
         const getColor = () => {
             var r = Math.floor(Math.random() * 128);
@@ -26,7 +32,7 @@ class experience extends Component {
                     <span className='experience-item-description'>{description}</span>
                     <div className='experience-item-languages'>
                         {languages.map((language, index) => (
-                            <span key={index}>{language}</span>
+                            <span key={index} onClick={() => buscar(language)}>{language}</span>
                         ))}
                     </div>
                 </div>
@@ -34,8 +40,8 @@ class experience extends Component {
         };
 
         const languages1 = ['JavaScript', 'HTML', 'CSS', 'JAVA', 'SQL'];
-        const languages2 = ['JavaScript', 'HTML', 'CSS','PHH'];
-   
+        const languages2 = ['JavaScript', 'HTML', 'CSS', 'PHP','SQL'];
+
 
 
 
