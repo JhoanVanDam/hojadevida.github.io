@@ -7,7 +7,9 @@ class experience extends Component {
     render() {
 
         const buscar = (parametro) => {
-            const busquedaURL = "https://www.google.com/search?q=" + encodeURIComponent(parametro);
+            parametro.toUpperCase();
+
+            const busquedaURL = "https://github.com/JhoanVanDam?tab=repositories&q=&type=&language=" + parametro + "&sort=";
             window.open(busquedaURL);
         }
 
@@ -40,7 +42,7 @@ class experience extends Component {
         };
 
         const languages1 = ['JavaScript', 'HTML', 'CSS', 'JAVA', 'SQL'];
-        const languages2 = ['JavaScript', 'HTML', 'CSS', 'PHP','SQL'];
+        const languages2 = ['JavaScript', 'HTML', 'CSS', 'PHP', 'SQL'];
 
 
 

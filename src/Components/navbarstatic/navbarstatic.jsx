@@ -20,11 +20,11 @@ class navbarstatic extends Component {
                 <Link to="sobremi" smooth={true} duration={500} offset={-50} className='navbarstatic-a'>
                     Sobre mí
                 </Link>
-                <Link to="habilidades" smooth={true} duration={500} offset={-50} className='navbarstatic-a'>
-                    Habilidades
-                </Link>
                 <Link to="experiencia" smooth={true} duration={500} offset={-50} className='navbarstatic-a'>
                     Experiencia
+                </Link>
+                <Link to="habilidades" smooth={true} duration={500} offset={-50} className='navbarstatic-a'>
+                    Habilidades
                 </Link>
                 <Link to="proyectos" smooth={true} duration={500} offset={-50} className='navbarstatic-a'>
                     Proyectos

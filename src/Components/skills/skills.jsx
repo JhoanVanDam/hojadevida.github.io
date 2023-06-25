@@ -16,9 +16,9 @@ class skills extends Component {
         return (
 
             <div className="skill-main-1" >
-                <h5>Habilidades</h5>
+                <h5 id="habilidades">Habilidades</h5>
                 <div className="skill-main">
-                    <div className="skill-item" id="habilidades">
+                    <div className="skill-item" >
                         <label>HTML</label>
                         <i className="fa-brands fa-html5" style={{ color: 'rgb(246,74,29)' }}></i>
                         <div className="skill-bar">

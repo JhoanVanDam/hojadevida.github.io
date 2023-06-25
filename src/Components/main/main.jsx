@@ -19,8 +19,8 @@ class main extends Component {
                     <link rel="icon" type="image/png" href={logo} />
                 </Helmet>
                 <About></About>
-                <Skills></Skills>
                 <Experience></Experience>
+                <Skills></Skills>
                 <Projects></Projects>
                 <Footer></Footer>
 
