@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Jura&family=Kadwa&family=Kaisei+Opti&family=Kameron&family=Karla&family=Lora:ital@0;1&family=Open+Sans&family=Roboto+Slab&family=Sen&display=swap');
 
 .experience-main {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    justify-items: center;
+    gap: 1rem;
+    width: 90%;
 }
 
 .experience-item {
-    width: fit-content;
+    max-width: 100%;
     margin-top: 2rem;
     margin-bottom: 2rem;
     display: flex;
@@ -24,6 +26,10 @@
     font-family: 'Kadwa';
 }
 
+.experience-item-languages {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .experience-item-date {
     text-align: right;
@@ -52,7 +58,17 @@
     font-style: oblique;
 }
 
+@media (max-width: 700px) {
+    .experience-item {
+        font-size: 1.5vw;
+    }
+}
+
 @media (max-width: 500px) {
+    .experience-main {
+        grid-template-columns: 1fr;
+    }
+
     .experience-item {
         font-size: 2.5vw;
         padding: 10vw;
