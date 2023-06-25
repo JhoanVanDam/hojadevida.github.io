@@ -25,28 +25,28 @@
 
 .img-logo {
     box-shadow: 2px 4px 10px 8px rgba(116, 116, 116, 0.4);
-    animation: shadowMove 3s infinite alternate;
+    animation: shadowMove 16s infinite alternate;
 }
 
 @keyframes shadowMove {
     0% {
-        box-shadow: 2px 4px 10px 8px rgba(116, 116, 116, 0.8);
+        box-shadow: 2px 4px 10px 8px rgba(241, 106, 106, 0.8);
     }
 
     25% {
-        box-shadow: 2px 5px 10px 8px rgba(116, 116, 116, 1);
+        box-shadow: 2px 5px 10px 8px rgb(63, 146, 128, 0.5);
     }
 
     50% {
-        box-shadow: 2px 4px 15px 8px rgba(116, 116, 116, 0.6);
+        box-shadow: 2px 4px 15px 8px rgba(76, 233, 44, 0.6);
     }
 
     75% {
-        box-shadow: 2px 4px 10px 8px rgba(116, 116, 116, 0.5);
+        box-shadow: 2px 4px 10px 8px rgba(56, 13, 248, 0.5);
     }
 
     100% {
-        box-shadow: 2px 5px 14px 8px rgba(116, 116, 116, 0.8);
+        box-shadow: 2px 5px 14px 8px rgba(220, 241, 30, 0.6);
     }
 }
 
