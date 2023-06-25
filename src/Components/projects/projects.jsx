@@ -33,8 +33,8 @@ class projects extends Component {
         return (
             <div className='projects-main' >
                 <h5 id='proyectos'>Proyectos</h5>
-                {projectsItem(imgP1, "Droguería Nubia", "Trabajé en el mantenimiento y desarrollo de las IES contratadas en el CIADTI", languages)}
-                {projectsItem(imgP1, "Droguería Nubia", "Trabajé en el mantenimiento y desarrollo de las IES contratadas en el CIADTI", languages)}
+                {projectsItem(imgP1, "Droguería Nubia", "Sistema de drogurería para contabilidad de ingresos", languages)}
+                {projectsItem(imgP1, "Droguería Nubia", "Sistema de drogurería para contabilidad de ingresos", languages)}
             </div>
         );
     }
