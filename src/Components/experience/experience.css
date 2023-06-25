@@ -8,86 +8,43 @@
 }
 
 .experience-item {
+    width: fit-content;
     margin-top: 2rem;
     margin-bottom: 2rem;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
     flex-direction: column;
     border: 1px solid rgb(160, 160, 160);
-    background-color: rgba(71, 0, 93, 1);
+    /*background-color: rgba(71, 0, 93, 1);*/
     border-radius: 1rem 9rem 10rem 10rem;
     overflow: hidden;
     color: white;
     font-size: 1vw;
     padding: 4vw;
     font-family: 'Kadwa';
-    font-style: bold;
-    animation: backgroundMoveColor 10s infinite alternate;
 }
 
-@keyframes backgroundMoveColor {
-    0% {
-        background-color: rgb(100, 0, 95);
-    }
-
-    25% {
-        background-color: rgb(32, 97, 83);
-    }
-
-    50% {
-        background-color: rgb(24, 73, 14);
-    }
-
-    75% {
-        background-color: rgb(35, 19, 109);
-    }
-
-    100% {
-        background-color: rgb(63, 68, 14);
-    }
-}
-
-@keyframes backgroundMoveColor2 {
-    0% {
-        background-color: rgb(24, 73, 14);
-    }
-    
-    25% {
-        background-color: rgb(35, 19, 109);
-    }
-    
-    50% {
-        background-color: rgb(63, 68, 14);
-    }
-    
-    75% {
-        background-color: rgb(32, 97, 83);
-    }
-    
-    100% {
-        background-color: rgb(100, 0, 95);
-    }
-}
 
 .experience-item-date {
+    text-align: right;
     font-family: 'Jura';
 }
 
-.experience-item-date {
-    font-family: 'Sen';
-}
-
 .experience-item-ocupation {
+    text-align: right;
     font-family: 'Kameron';
 }
 
 .experience-item-title {
+    text-align: right;
     font-family: 'Kameron';
 }
 
 .experience-item-description {
     font-family: 'Kameron';
+    text-align: left;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .experience-item-languages span {
@@ -97,6 +54,9 @@
 
 @media (max-width: 500px) {
     .experience-item {
-        font-size: 2vw;
+        font-size: 2.5vw;
+        padding: 10vw;
+        overflow: hidden;
+
     }
 }
