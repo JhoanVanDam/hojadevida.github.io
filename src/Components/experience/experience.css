@@ -9,6 +9,15 @@
     width: 90%;
 }
 
+.experience-title {
+    font-family: 'Roboto Slab';
+    font-size: 4vw;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
 .experience-item {
     max-width: 100%;
     margin-top: 2rem;

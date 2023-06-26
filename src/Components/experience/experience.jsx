@@ -48,9 +48,12 @@ class experience extends Component {
 
 
         return (
-            <div className='experience-main' id='experiencia'>
-                {experienceItem('2022-2023', 'Desarrollador de software', 'Academusoft', 'Trabajé en el mantenimiento y desarrollo de las IES contratadas en el CIADTI', languages1, getColor())}
-                {experienceItem('2022-2023', 'Desarrollador de software', 'FreeLance', 'Desarrollo e integración de la página de un videojuego', languages2, getColor())}
+            <div>
+                <h5 className='experience-title'>Experiencia</h5>
+                <div className='experience-main' id='experiencia'>
+                    {experienceItem('2022-2023', 'Desarrollador de software', 'Academusoft', 'Trabajé en el mantenimiento y desarrollo de las IES contratadas en el CIADTI', languages1, getColor())}
+                    {experienceItem('2022-2023', 'Desarrollador de software', 'FreeLance', 'Desarrollo e integración de la página de un videojuego', languages2, getColor())}
+                </div>
             </div>
         );
     }
