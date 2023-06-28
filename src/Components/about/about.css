@@ -36,12 +36,12 @@
     animation: shadowMove 16s infinite alternate;
 }
 .img-logo:hover{
-    transform: scale(130%);
+    transform: scale(110%);
 }
 
 @keyframes shadowMove {
     0% {
-        box-shadow: 2px 4px 10px 8px rgba(241, 106, 106, 0.8);
+        box-shadow: 2px 4px 10px 8px rgba(189, 157, 157, 0.8);
     }
 
     25% {
@@ -57,7 +57,7 @@
     }
 
     100% {
-        box-shadow: 2px 5px 14px 8px rgba(220, 241, 30, 0.6);
+        box-shadow: 2px 5px 14px 8px rgba(72, 15, 99, 0.6);
     }
 }
 
@@ -93,10 +93,11 @@
 
 .about-description p {
 
-    font-family: 'Kameron';
+    font-family: 'Karla';
     font-style: normal;
     font-weight: 400;
     font-size: 1.3vw;
+    text-align: justify;
     line-height: normal;
     color: #000000;
 
