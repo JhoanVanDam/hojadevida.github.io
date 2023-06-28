@@ -3,12 +3,12 @@ import styles from "./skills.css";
 class skills extends Component {
     render() {
         const languageBar = {
-            HTML: '20%',
+            HTML: '80%',
             JAVA: '63%',
-            CSS: '90%',
-            JAVASCRIPT: '55%',
-            PHP: '70%',
-            SPRING: '24%',
+            CSS: '60%',
+            JAVASCRIPT: '30%',
+            PHP: '40%',
+            SPRING: '50%',
             REACT: '56%',
             ANGULAR: '60%'
         };
