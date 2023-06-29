@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import imgP1 from './img/drogueria.png';
-import imgP2 from './img/miel.png';
-import imgP3 from './img/ValorantApi.png';
-import imgP4 from './img/phpapp.png';
-import imgP5 from './img/mailhack.png';
-import imgP6 from './img/ValorantApi.png';
-import imgP7 from './img/hojadevida.png';
+import imgP1 from './img/drogueria.webp';
+import imgP2 from './img/miel.webp';
+import imgP3 from './img/ValorantApi.webp';
+import imgP4 from './img/phpapp.webp';
+import imgP5 from './img/mailhack.webp';
+import imgP6 from './img/ValorantApi.webp';
+import imgP7 from './img/hojadevida.webp';
 import './projects.css';
 class projects extends Component {
     render() {
