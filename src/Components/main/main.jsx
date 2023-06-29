@@ -5,7 +5,8 @@ import Footer from '../footer/footer';
 import Skills from '../skills/skills';
 import Experience from '../experience/experience';
 import Projects from '../projects/projects';
-import styles from './main.css';
+import Contact from '../contact/contact';
+import './main.css';
 import { Helmet } from 'react-helmet';
 import logo from './main.ico';
 class main extends Component {
@@ -22,6 +23,7 @@ class main extends Component {
                 <Experience></Experience>
                 <Skills></Skills>
                 <Projects></Projects>
+                <Contact></Contact>
                 <Footer></Footer>
 
             </div>
