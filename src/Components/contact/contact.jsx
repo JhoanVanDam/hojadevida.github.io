@@ -20,7 +20,7 @@ class contact extends Component {
         return (
             <div className='contact-main'>
                 <div className='contact-title'>
-                    <h5>Contáctame</h5>
+                    <h5 id='contacto'>Contáctame</h5>
                 </div>
                 <form id='my-form' onSubmit={enviarEmail}>
                     <div className='contact-main-form'>

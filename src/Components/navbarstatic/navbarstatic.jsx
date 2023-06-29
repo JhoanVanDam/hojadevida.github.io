@@ -17,17 +17,20 @@ class navbarstatic extends Component {
                 <label id='navbarstatic-role'>
                     Desarrollador
                 </label>
-                <Link to="sobremi" smooth={true} duration={1000} offset={-50} className='navbarstatic-a'>
+                <Link to="sobremi" smooth={true} duration={1500} offset={-50} className='navbarstatic-a'>
                     Sobre mí
                 </Link>
-                <Link to="experiencia" smooth={true} duration={1000} offset={-50} className='navbarstatic-a'>
+                <Link to="experiencia" smooth={true} duration={1500} offset={-50} className='navbarstatic-a'>
                     Experiencia
                 </Link>
-                <Link to="habilidades" smooth={true} duration={1000} offset={-50} className='navbarstatic-a'>
+                <Link to="habilidades" smooth={true} duration={1500} offset={-50} className='navbarstatic-a'>
                     Habilidades
                 </Link>
-                <Link to="proyectos" smooth={true} duration={1000} offset={-50} className='navbarstatic-a'>
+                <Link to="proyectos" smooth={true} duration={1500} offset={-50} className='navbarstatic-a'>
                     Proyectos
+                </Link>
+                <Link to="contacto" smooth={true} duration={1500} offset={-50} className='navbarstatic-a'>
+                    Contacto
                 </Link>
 
                 <div className='navbarstatic-social-network'>
