@@ -95,13 +95,14 @@
 
 .navbarstatic-main a {
     text-decoration: none;
+    cursor: pointer;
 }
 
 .navbarstatic-main li {
     list-style: none;
 }
 
-@media (max-width: 400px) {}
+
 
 @media (max-width: 400px) {
     .navbarstatic-main label {

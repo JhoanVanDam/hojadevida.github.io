@@ -74,6 +74,7 @@
     padding: 4px;
     margin: 2px;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .experience-item-languages span:hover {

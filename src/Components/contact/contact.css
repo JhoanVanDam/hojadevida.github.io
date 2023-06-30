@@ -24,22 +24,31 @@
     align-items: center;
     justify-items: center;
     width: 100%;
+    background-color: white;
     border: 1px solid gray;
     padding: 5vw;
     margin-top: 4rem;
     margin-bottom: 4rem;
-    border-radius: 2rem;
+    border-radius: 1rem;
+    /*
+    background-image: url('/public/Resources/gato-negro.png'), url('/public/Resources/gato\ \(2\).png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    */
 }
 
 .contact-main-form label {
     text-align: left;
-    color: white;
+    color: black;
     font-size: 1.5vw;
+    font-family: 'Kadwa';
+    font-weight: 500;
 }
 
 .contact-main-form input {
     all: unset;
-    background-color: white;
+    font-family: 'Karla';
+    border-bottom: 2px blue solid;
     width: 100%;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -47,23 +56,31 @@
     transition: all 0.6s ease;
     text-indent: 10px;
     font-size: 1.5vw;
+    padding: 0.5vw;
 }
+
 
 .contact-main-form input::placeholder {
     text-indent: 10px;
+    color: rgb(88, 88, 88);
 }
 
 .contact-main-form input:focus {
     outline: none;
     transform: scale(110%);
+    border-bottom: 2px rgb(255, 30, 0) solid;
+
 }
 
 .contact-main-form textarea {
     text-indent: 10px;
     width: 100%;
     margin-top: 1rem;
+    font-family: 'Karla';
     margin-bottom: 1rem;
     transition: all 0.6s ease;
+    font-size: 1.5vw;
+    border: 1px solid rgb(138, 138, 138);
 }
 
 
@@ -76,7 +93,8 @@
     all: unset;
     padding: 1rem;
     border-radius: 10%;
-    color: rgb(255, 255, 255);
+    color: white;
+    background-color: blue;
     border: 1px solid;
     grid-column: span 2;
     margin-top: 1rem;
@@ -85,8 +103,8 @@
 }
 
 .contact-main-form button:hover {
-    color: rgb(0, 0, 0);
-    background-color: white;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
 }
 
 @media (max-width:700px) {
@@ -98,7 +116,7 @@
 
     .contact-main-form input {
         margin-top: 0rem;
-        margin-bottom: 5px;
+        margin-bottom: 1rem;
         font-size: 2vw;
     }
 
@@ -134,7 +152,7 @@
 
     .contact-main-form input {
         margin-top: 0rem;
-        margin-bottom: 5px;
+        margin-bottom: 1rem;
         font-size: 3vw;
     }
 
