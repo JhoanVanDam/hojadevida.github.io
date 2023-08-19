@@ -128,7 +128,21 @@
     margin-top: 2rem;
     font-size: 11vw;
     color: white;
+    margin-bottom: 1rem;
+}
 
+.contact-main-cv button {
+    all: unset;
+    color: black;
+    border: 1px solid black;
+    border-radius: 2rem;
+    padding: 1vw;
+    background-color: white;
+}
+
+.contact-main-cv button:hover {
+    color: white;
+    background-color: black;
 }
 
 @media (max-width:700px) {

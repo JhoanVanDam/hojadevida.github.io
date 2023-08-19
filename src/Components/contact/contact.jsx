@@ -47,7 +47,7 @@ class contact extends Component {
                 <div className='contact-main-cv'>
                     <h3>Descargar Curriculum</h3>
                     <i class="fa-solid fa-file" />
-                    <button onClick={downloadCV}>Descargar Archivo</button>
+                    <button type='button' onClick={downloadCV}>Descargar</button>
                 </div>
             </div>
         );
