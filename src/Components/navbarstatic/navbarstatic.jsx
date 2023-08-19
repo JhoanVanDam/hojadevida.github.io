@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import styles from './navbarstatic.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import './navbarstatic.css';
+
 import { Link, animateScroll as scroll } from 'react-scroll';
 
 class navbarstatic extends Component {

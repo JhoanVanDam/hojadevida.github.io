@@ -1,16 +1,16 @@
 import React, { Component } from "react";
-import styles from "./skills.css";
+import "./skills.css";
 class skills extends Component {
     render() {
         const languageBar = {
             HTML: '80%',
             JAVA: '63%',
             CSS: '60%',
-            JAVASCRIPT: '30%',
-            PHP: '40%',
+            JAVASCRIPT: '40%',
+            PHP: '30%',
             SPRING: '50%',
-            REACT: '56%',
-            ANGULAR: '60%'
+            REACT: '66%',
+            ANGULAR: '50%'
         };
 
         return (
@@ -18,7 +18,7 @@ class skills extends Component {
             <div className="skill-main-1" >
                 <h5 id="habilidades">Habilidades</h5>
                 <div className="skill-main">
-                    <div className="skill-item" >
+                    <div className="skill-item">
                         <label>HTML</label>
                         <i className="fa-brands fa-html5" style={{ color: 'rgb(246,74,29)' }}></i>
                         <div className="skill-bar">

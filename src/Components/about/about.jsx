@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import style from "./about.css";
+import "./about.css";
 //import jhoan from "./jhoan2.webp";
 class about extends Component {
     render() {
         return (
             <div className="about-main" id="sobremi">
-                
+                {/*<img className="img-logo" src={jhoan} alt="logo" />*/}
                 <h5>Sobre mí</h5>
                 <div className="about-description">
                     <p>

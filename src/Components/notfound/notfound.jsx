@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import styles from './notfound.css';
+import './notfound.css';
 import notfoundico2 from './error-404.webp';
 import Footer from '../footer/footer';
 class notfound extends Component {
