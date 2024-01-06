@@ -1,19 +1,23 @@
 import React, { Component } from 'react';
 import './contact.css';
 import emailjs from 'emailjs-com';
-import CV from './Source/JhoanCV2023.pdf';
+import CV from './Source/JhoanCV2024.pdf';
 
 class contact extends Component {
     render() {
+
+
         const downloadCV = () => {
             const link = document.createElement('a');
             link.href = CV;
-            link.download = 'JhoanCV2023.pdf';
+            link.download = 'JhoanCV2024.pdf';
             link.style.display = 'none';
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
         };
+
+
 
         function enviarEmail(e) {
             e.preventDefault();
@@ -46,7 +50,7 @@ class contact extends Component {
                 </form>
                 <div className='contact-main-cv'>
                     <h3>Descargar Curriculum</h3>
-                    <i class="fa-solid fa-file" />
+                    <i className="fa-solid fa-file" />
                     <button type='button' onClick={downloadCV}>Descargar</button>
                 </div>
             </div>

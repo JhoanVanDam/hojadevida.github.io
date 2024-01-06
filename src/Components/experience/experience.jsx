@@ -52,7 +52,6 @@ class experience extends Component {
             <div>
                 <h5 className='experience-title' id='experiencia'>Experiencia</h5>
                 <div className='experience-main'>
-                    {experienceItem('2021', 'Estudiante', 'Voluntario', 'Registro de información en bases de datos', languages1, getColor())}
                     {experienceItem('2022', 'Desarrollador de software', 'FreeLance', 'Desarrollo e integración de la página de un videojuego', languages2, getColor())}
                     {experienceItem('2023', 'Desarrollador de software', 'Academusoft', 'Trabajé en el mantenimiento y desarrollo de las IES', languages3, getColor())}
                 </div>

@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import App from './App.jsx';
 import reportWebVitals from './reportWebVitals';
-import '@fortawesome/fontawesome-free/css/all.css';
 import { BrowserRouter, BrowserRouter as Router, Route, Routes, } from 'react-router-dom';
 console.log(Router, Route, Routes);
 

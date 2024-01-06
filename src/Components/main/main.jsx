@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Navbarstatic from '../navbarstatic/navbarstatic';
 import About from '../about/about';
 import Footer from '../footer/footer';
 import Skills from '../skills/skills';

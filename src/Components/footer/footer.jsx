@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import befooterstyle from "./footer.css";
+import "./footer.css";
+
 import cat from "./gato.webp";
 
 
