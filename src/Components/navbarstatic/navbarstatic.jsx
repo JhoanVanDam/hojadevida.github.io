@@ -32,9 +32,6 @@ class navbarstatic extends Component {
                 <Link to="contacto" smooth={true} duration={1500} offset={-50} className='navbarstatic-a'>
                     Contacto
                 </Link>
-                <label>
-                    <CountriesList />
-                </label>
 
                 <div className='navbarstatic-social-network'>
                     <a href="https://www.facebook.com/jhoanvandam" rel="noreferrer" target="_blank"><i className="fa-brands fa-facebook fa-2x"></i></a>
