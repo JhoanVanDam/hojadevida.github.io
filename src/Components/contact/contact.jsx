@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './contact.css';
 import emailjs from 'emailjs-com';
 import CV from './Source/JhoanCV2024.pdf';
+import { Textarea } from 'keep-react';
 
 class contact extends Component {
     render() {
@@ -17,6 +18,17 @@ class contact extends Component {
             document.body.removeChild(link);
         };
 
+        const DownloadCVComp = () => {
+            return (
+                <>
+                    <div className='contact-main-cv'>
+                        <h3>Descargar Curriculum</h3>
+                        <i className="fa-solid fa-file" />
+                        <button type='button' onClick={downloadCV}>Descargar</button>
+                    </div>
+                </>
+            )
+        }
 
 
         function enviarEmail(e) {
@@ -44,15 +56,11 @@ class contact extends Component {
                         <label htmlFor='email'>Email</label>
                         <input required id='email' type="email" name="user_email" placeholder='Ingrese el email' />
                         <label required htmlFor='message'>Mensaje</label>
-                        <textarea id='message' name="user_message" placeholder='Mensaje' />
+                        <Textarea id='message' name="user_message" placeholder='Mensaje' />
                         <button type="submit" >Enviar</button>
                     </div>
                 </form>
-                <div className='contact-main-cv'>
-                    <h3>Descargar Curriculum</h3>
-                    <i className="fa-solid fa-file" />
-                    <button type='button' onClick={downloadCV}>Descargar</button>
-                </div>
+                <DownloadCVComp />
             </div>
         );
     }
