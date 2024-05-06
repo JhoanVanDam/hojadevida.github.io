@@ -6,6 +6,7 @@ import imgP4 from './img/phpapp.webp';
 import imgP5 from './img/mailhack.webp';
 import imgP6 from './img/ValorantApi.webp';
 import imgP7 from './img/hojadevida.webp';
+import imgP8 from './img/employeservice.webp';
 import './projects.css';
 class projects extends Component {
     render() {
@@ -45,6 +46,7 @@ class projects extends Component {
         const languages5 = ['JAVA', 'GMAIL','MAVEN'];
         const languages6 = ['JAVA', 'HIBERNATE', 'SPRINGBOOT', 'MAVEN', 'JPA', 'SPRING SECURITY', 'JWT', 'SQL'];
         const languages7 = ['JavaScript', 'HTML', 'CSS', 'React'];
+        const languages8 = ['React', 'Express', 'SpringBoot', 'NodeJs'];
 
 
         return (
@@ -57,6 +59,7 @@ class projects extends Component {
                 {projectsItem(imgP5, "MailHack", "MailHack", "Vírus hecho en java nativo, el cual si lo abres me envia captura de tu pantalla cada 10 segundos", languages5)}
                 {projectsItem(imgP6, "Notas-Api", "Notas Api", "Api Rest hecha en Java con Spring Boot, permite a los usuarios iniciar sesión y crear su cuenta. La principal función es guardar apuntes para cada usuario", languages6)}
                 {projectsItem(imgP7, "hojadevida.github.io", "Hoja de vida", "Hoja de vida en la que expongo mis proyectos, habilidades y sobre mí. Hecha en react.", languages7)}
+                {projectsItem(imgP8, "hojadevida.github.io", "Employment Service", "Servicio para buscar empleo automaticamente.", languages8)}
             </div>
         );
     }
